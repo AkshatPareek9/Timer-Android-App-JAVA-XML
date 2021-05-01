@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context=".A">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:background="@color/blue"
+        android:text="0"
+        android:textSize="40sp"
+        android:textStyle="bold|normal"
+        android:textColor="@color/white"
+        android:id="@+id/tv" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:backgroundTint="@color/white"
+        android:background="@drawable/rounded_corners"
+        android:drawableLeft="@drawable/timeroff"
+        android:text="Stop Timer"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/stoptimer"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:background="@drawable/rounded_corners"
+        android:drawableRight="@drawable/nextarrow"
+        android:text="Next"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/nexta"/>
+
+</RelativeLayout>
